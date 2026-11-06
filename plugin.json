@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "get-me-a-skill",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Find, evaluate, and choose agent skills for a real job, or identify when to adapt or build one.",
   "repository": "https://github.com/developer-mohanaditya/get-me-a-skill",
   "license": "MIT",

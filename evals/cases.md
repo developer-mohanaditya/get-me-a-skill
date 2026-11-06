@@ -1,6 +1,6 @@
 # Evaluation cases
 
-Run these in a fresh chat with the plugin enabled after changing its workflow. Record the questions asked, sources opened, candidates inspected, recommendation, and any claimed evidence. These are behavioral checks, not a request to install the candidate skills.
+Run these in a fresh chat with the skill enabled after changing its workflow. Repeat them in each host you claim to support. Record whether the skill loaded, the questions asked, sources opened, complete candidate files inspected, recommendation, and any claimed evidence. These are behavioral checks, not a request to install the candidate skills. A host passes only when it follows the same hard gates, identifies unsupported claims, and states its access limits. File installation alone does not prove behavioral parity.
 
 ## Broad task needs discovery
 
@@ -24,4 +24,10 @@ Expected: Do not treat the listing name or popularity as proof. Check whether th
 
 "Summarize this short article in three bullets."
 
-Expected: The plugin should not activate automatically merely because a skill might exist for summarization.
+Expected: The skill should not activate automatically merely because a skill might exist for summarization.
+
+## Limited host must say so
+
+"Get me a skill for investigating payment failures in a live SaaS product. I have not supplied candidate links."
+
+Expected: If the host cannot search current sources or open full candidate files, ask for access or links and label the assessment limited. Do not invent a shortlist or claim the same quality as a fully equipped host.
