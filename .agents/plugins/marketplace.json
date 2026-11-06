@@ -1,0 +1,21 @@
+{
+  "name": "get-me-a-skill",
+  "interface": {
+    "displayName": "Get Me a Skill"
+  },
+  "plugins": [
+    {
+      "name": "get-me-a-skill",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/developer-mohanaditya/get-me-a-skill.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

@@ -12,7 +12,14 @@ npx skills add developer-mohanaditya/get-me-a-skill --skill get-me-a-skill
 
 In Codex, invoke `$get-me-a-skill`. In ChatGPT, select `@get-me-a-skill` when the skill is available. Include the job, the required depth, and any constraints. The agent may ask a few focused questions if they would change the match.
 
-This repository also includes a portable [`plugin.json`](plugin.json) for plugin hosts. The skill itself needs web or repository search access to discover external skills; it does not bundle credentials or a data connector. Available sources depend on the host agent's tools.
+This repository also includes a portable [`plugin.json`](plugin.json) for plugin hosts and a marketplace entry for Codex:
+
+```bash
+codex plugin marketplace add developer-mohanaditya/get-me-a-skill --ref main
+codex plugin add get-me-a-skill@get-me-a-skill
+```
+
+The skill needs web or repository search access to discover external skills; it does not bundle credentials or a data connector. Available sources depend on the host agent's tools.
 
 ## Maintain it
 
