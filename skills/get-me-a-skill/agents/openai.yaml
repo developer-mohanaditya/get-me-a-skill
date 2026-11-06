@@ -1,0 +1,4 @@
+interface:
+  display_name: "Get Me a Skill"
+  short_description: "Find the right skill for a job"
+  default_prompt: "Use $get-me-a-skill to find the best skill for this job and decide whether to use, combine, adapt, or build."

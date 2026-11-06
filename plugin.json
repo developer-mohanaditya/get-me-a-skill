@@ -1,0 +1,23 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "get-me-a-skill",
+  "version": "0.1.0",
+  "description": "Find, evaluate, and choose agent skills for a real job, or identify when to adapt or build one.",
+  "repository": "https://github.com/developer-mohanaditya/get-me-a-skill",
+  "license": "MIT",
+  "keywords": ["agent-skills", "skill-discovery", "skill-evaluation"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Get Me a Skill",
+        "shortDescription": "Find the right skill for a job",
+        "longDescription": "Compare existing agent skills against the work you need done, check the evidence and required access, and decide whether to use, combine, adapt, or build.",
+        "developerName": "developer-mohanaditya",
+        "category": "Productivity",
+        "defaultPrompt": [
+          "Use Get Me a Skill to find the best skill for my workflow. Ask only the key questions needed to judge fit."
+        ]
+      }
+    }
+  }
+}
